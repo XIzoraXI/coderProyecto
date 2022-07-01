@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupcake shop</title>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="../assets/Favicon.png">
+    <!-- mi css -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">
+                <img src="../assets/Logo.png" alt="Logo de Cupcake shop">
+            </a>
+            <ul>
+                <li>
+                    <a href="../section/nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="../section/Galeria.html">Galeria</a>
+                </li>
+                <li>
+                    <a href="contactos.html">Contáctanos</a>
+                </li>
+                <li>
+                    <a href="../section/ofertas.html">Ofertas</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--formulario de contacto-->
+    <main id="Separacion">
+        <section>
+            <form action="envio.php"> <!--archivo de procesamiento de datos, de momento no funcional -->
+                <fieldset class="Nosotros">
+                    <legend class="TextoCentrado">Ante cualquier duda, contactanos</legend>
+                    <!-- Nombre de la persona -->
+                    <label  for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" placeholder="Kevin Carmona">
+                    <!--Email de la persona-->
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" placeholder="email@email.com">
+                    <!--Fecha del dia en que envia el mensaje-->
+                    <label for="fecha">Fecha</label>
+                    <input type="date" name="" id="fecha">
+                    <!--Mensaje con el problema o su duda-->
+                    <label for="mensaje">Dejenos su mensaje</label>
+                    <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
+                    <!--botones de enviar y cancelar-->
+                    <div>
+                        <input type="reset" value="Cancelar">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+        <section>
+            <fieldset class="Nosotros"> <!--por el momento mapa de la ciudad donde nos ubicamos-->
+                <legend class="TextoCentrado">Mapa de nuestra ubicacion</legend>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59883.11727050416!2d-70.15891949825598
+                !3d-20.271487301518924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91523e70293c5633%3A0x671ff7396
+                32f5660!2sAlto%20Hospicio%2C%20Tarapac%C3%A1!5e0!3m2!1ses!2scl!4v1653952858343!5m2!1ses!2scl"
+                style="border:1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </fieldset>
+        </section>
+    </main>
+    <footer class="TextoDerecha">
+        <p>sigueno en nuestras redes sociales</p>
+        <a href="https://www.facebook.com" target="_blank">
+            <img src="../assets/Facebook.png" alt="logo de Facebook">
+        </a>
+        <a href="https://www.twitter.com" target="_blank">
+            <img src="../assets/Twitter.png" alt="logo de Twitter">
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="../assets/Instagram.png" alt="logo de Instagram">
+        </a>
+    </footer>
+</body>
+</html>
