@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
 
 /* reset */
 *{
@@ -41,9 +41,18 @@ body{
     text-decoration: underline magenta;
 }
 
+/* color en la navbar */
+.bg-pink{
+    background-color: rgba(253, 241, 241, 1);
+}
+
+.w-99{
+    width: 99%;
+}
+
 /* seleccion del color en NAV, posicion,
 y el cambio en lista */
-nav{
+/* nav{
     background-color: rgba(253, 241, 241, 1);
     padding: 1% 2.5%;
     position: relative;
@@ -65,7 +74,7 @@ nav{
                 nav ul li a{
                     color:#e57d90;
                     text-decoration: none;
-                }
+                } */
 
 /* cambio en el tamaño de las imagenes
 del logo y del footer */
@@ -133,26 +142,15 @@ footer a img{
 
 /* tamaño del mapa en contactanos */
 section fieldset iframe{
-    width: 99%;
+    width: 98%;
     height: 300px;
 }
 
 /* contactanos */
-fieldset input{
-    padding: 8px;
-    margin: 15px;
+fieldset label{
     display: block;
+    margin: 15px;
 }
-    fieldset label{
-        display: block;
-        margin: 15px;
-    }
-        fieldset textarea{
-            margin: 15px;
-        }
-        fieldset div input{
-            display: inline-block;
-        }
 
 /* configuracion de la imagen de las ofertas del mes, no pude centrarla :( */
 .OfertasDelMes{

@@ -7,6 +7,8 @@
     <title>Cupcake shop</title>
     <!--Favicon-->
     <link rel="shortcut icon" href="assets/Favicon.png">
+    <!-- bootstrap.min.css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- mi css -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/flexbox.css">
@@ -14,29 +16,66 @@
 </head>
 <body>
     <div class="indexGrid">
-    <!-- inicio de la nav con el logo  -->
-        <nav class="nav"> 
-            <a href="index.html">
-                <img src="assets/Logo.png" alt="Logo de Cupcake shop">
-            </a>
-            <!-- Lista no ordenada con cada seccion -->
-            <ul>
-                <li>
-                    <a href="section/nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="section/Galeria.html">Galeria</a>
-                </li>
-                <li>
-                    <a href="section/contactos.html">Contáctanos</a>
-                </li>
-                <li>
-                    <a href="section/ofertas.html">Ofertas</a>
-                </li>
-            </ul>
+        <!-- inicio de navbar -->
+        <nav class=" nav navbar navbar-expand-lg navbar-light bg-pink w-99">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/Logo.png" alt="logo de cupcake shop">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="section/ofertas.html">Ofertas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="section/Galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Nuestro contacto
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="section/nosotros.html">Nosotros</a></li>
+                                <li><a class="dropdown-item" href="section/contactos.html">contactanos</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-        <header class=" ImagenHero separacion header w-100 heroAnimation">
-            <!-- imagen hero con animacion, saque la que habia porque se sobreponia  -->
+        <!-- fin de navbar -->
+        <header class="indexGrid header">
+            <!-- inicio de carrusel -->
+            <div id="carouselExampleIndicators" class="carousel slide1" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/header1.png" class="d-block w-100" alt="imagen con frutillas bañadas">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/header2.png" class="d-block w-100" alt="imagen de cupcake en estante">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/header3.png" class="d-block w-100" alt="imagen de cupcake rosas">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- fin de carrusel -->
         </header>
         <!-- inicio del main -->
         <main class="main box h1Flex">
@@ -66,5 +105,7 @@
             </a>
         </footer>
     </div>
+    <!-- bootstrap.min.js -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

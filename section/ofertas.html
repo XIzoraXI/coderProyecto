@@ -7,30 +7,44 @@
     <title>Cupcake shop</title>
     <!--Favicon-->
     <link rel="shortcut icon" href="../assets/Favicon.png"> 
+    <!-- bootstrap.min.css -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <!-- mi css -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <a href="../index.html">
-                <img src="../assets/Logo.png" alt="Logo de Cupcake shop">
-            </a>
-            <ul>
-                <li>
-                    <a href="../section/nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="../section/Galeria.html">Galeria</a>
-                </li>
-                <li>
-                    <a href="../section/contactos.html">Contáctanos</a>
-                </li>
-                <li>
-                    <a href="ofertas.html">Ofertas</a>
-                </li>
-            </ul>
+        <!-- inicio de navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-pink w-99">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../assets/Logo.png" alt="logo de cupcake shop">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../section/ofertas.html">Ofertas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../section/Galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Nuestro contacto
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="../section/nosotros.html">Nosotros</a></li>
+                                <li><a class="dropdown-item" href="../section/contactos.html">contactanos</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
+        <!-- fin de navbar -->
     </header>
     <!--informacion sobre las ofertas-->
     <main id="Separacion">
@@ -74,5 +88,7 @@
             <img src="../assets/Instagram.png" alt="logo de Instagram">
         </a>
     </footer>
+    <!-- bootstrap-min.js -->
+    <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
