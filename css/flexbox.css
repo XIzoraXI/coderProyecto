@@ -82,10 +82,6 @@ aside img{
     "pie pie pie";
 }
 
-.w-99{
-    width: 98%;
-}
-
 /* h1 de index */
 .h1Novedades{
     flex-flow: column wrap;
