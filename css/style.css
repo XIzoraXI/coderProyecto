@@ -1,15 +1,15 @@
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap'); */
 
 /* reset */
-*{
+/* *{
     font-family: 'roboto', sans-serif;
     padding: 0;
     margin: 0;
-}
+} */
 
-h1{
+/* h1{
     font-size: 2rem;
-}
+} */
 
 /* imagen de fondo  */
 body{
@@ -17,19 +17,19 @@ body{
 }
 
 /* separacion entre la nav y el main */
-.separacion{
+/* .separacion{
     margin: 30px auto
-}
+} */
 
 /* alineacion central */
-.TextoCentrado{
+/* .TextoCentrado{
     text-align: center
-}
+} */
 
 /* alineacion derecha */
-.TextoDerecha{
+/* .TextoDerecha{
     text-align: right;
-}
+} */
 
 /* alineacion izquierda */
 .TextoIzquierda{
@@ -37,9 +37,9 @@ body{
 }
 
 /* decoracion de texto subrayado */
-.TextoDecorado{
+/* .TextoDecorado{
     text-decoration: underline magenta;
-}
+} */
 
 /* color en la navbar */
 .bg-pink{
@@ -56,9 +56,9 @@ nav a img{
     width: 90px;
 }
 
-footer a img{
+/* footer a img{
     width: 30px;
-}
+} */
 
 /* color en el fondo de los textos, decorativo */
 .Nosotros{
@@ -80,13 +80,13 @@ footer a img{
 }
 
 /* texto de la seccion de novedades, index */
-.parrafoNovedades{
+/* .parrafoNovedades{
     width: 45%;
     height: auto;
     padding: 20px;
     font-size: 1.4rem;
     color: #ff69b4;
-}
+} */
 
 /* tamaño de las imagenes de la galeria */
 .GaleriaIMG{

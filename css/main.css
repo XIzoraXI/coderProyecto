@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu&display=swap");
+* {
+  font-family: "roboto", sans-serif;
+  padding: 0;
+  margin: 0; }
+
+h1 {
+  font-size: 2rem;
+  font-family: "Ubuntu", sans-serif; }
+
+.parrafoNovedades {
+  width: 45%;
+  height: auto;
+  padding: 20px;
+  font-size: 1.4rem;
+  color: #ff69b4; }
+
+.TextoCentrado {
+  text-align: center; }
+
+.TextoDecorado {
+  text-decoration: underline magenta; }
+
+footer a img {
+  width: 30px; }
+
+.TextoDerecha {
+  text-align: right; }
+
+body {
+  background-image: url(../assets/fondocupcake.png); }
+
+.separacion {
+  margin: 30px auto; }

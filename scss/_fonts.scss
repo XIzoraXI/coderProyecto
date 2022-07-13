@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu&display=swap');
+
+// fonts
+$mainFonts: 'roboto', sans-serif;
+$secundaryFonts: 'Ubuntu', sans-serif;
+
+// tamaño del texto
+$tamañoH1: 2rem;
+$parrafos: 1.4rem;
+
+
+// reset
+*{
+    font-family: $mainFonts;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-size: $tamañoH1;
+    font-family: $secundaryFonts;
+}
+
+// parrafo en la seccion de index
+.parrafoNovedades{
+    width: 45%;
+    height: auto;
+    padding: 20px;
+    font-size: $parrafos;
+    color: $keyColor;
+}
+
+.TextoCentrado{
+    text-align: $centro;
+}
+
+.TextoDecorado{
+    text-decoration: $Decoracion;
+}
