@@ -23,17 +23,23 @@ h1{
 
 // parrafo en la seccion de index
 .parrafoNovedades{
-    width: 45%;
-    height: auto;
-    padding: 20px;
-    font-size: $parrafos;
-    color: $keyColor;
+    @include parrafo(45%, auto, 20px);
+    @extend .parrafoNovedades;
+    color: map-get($map:$paleta, $key:'keyColor');
 }
 
-.TextoCentrado{
+.textoCentrado{
     text-align: $centro;
 }
 
-.TextoDecorado{
-    text-decoration: $Decoracion;
+.textoDecorado{
+    text-decoration: $decoracion;
+}
+
+.textoIzquierda{
+    text-align: $izquierda;
+}
+
+.textoDerecha{
+    text-align: $derecha;
 }

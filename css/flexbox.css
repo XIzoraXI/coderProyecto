@@ -11,16 +11,10 @@
 }
 
 /* nombrando las areas */
-.nav{
-    grid-area: nav;
-}
+
 
 .main{
     grid-area: main;
-}
-
-.pie{
-    grid-area: pie;
 }
 
 .aside{

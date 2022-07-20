@@ -1,0 +1,11 @@
+.bg-pink{
+    background-color: map-get($map:$paleta, $key:'mainColor');
+}
+
+nav a img{
+    width: 90px;
+}
+
+.nav{
+    grid-area: nav;
+}

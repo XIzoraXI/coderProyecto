@@ -1,6 +1,9 @@
 // imports
 @import "_vars";
+@import "_mixins";
 @import "_fonts";
+@import "_breakpoint";
+@import "_navbar";
 @import "_footer";
 
 body{
@@ -9,4 +12,18 @@ body{
 
 .separacion{
     margin: 30px auto
+}
+
+.nosotros{
+    background-color: map-get($map:$paleta, $key:'secundaryColor');
+}
+
+.w-99{
+    width: $width99;
+}
+
+.parrafoGaleria{
+    @include parrafo(95%, auto, 15px);
+    @extend .parrafoGaleria;
+    text-align: $centro;
 }

@@ -1,4 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu&display=swap");
+@keyframes heroAnimation {
+  0% {
+    background-image: url(../assets/Frutillas_rosas.png); }
+  50% {
+    background-image: url(../assets/header2.png); }
+  99% {
+    background-image: url(../assets/header3.png); } }
+
+.heroAnimation {
+  height: 70vh;
+  animation-name: heroAnimation;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  background-size: cover;
+  animation-timing-function: ease-in; }
+
+.degrade {
+  background: #f1164d;
+  background: linear-gradient(0deg, #f99aaa 50%, #c83188 85%); }
+
 * {
   font-family: "roboto", sans-serif;
   padding: 0;
@@ -15,20 +35,51 @@ h1 {
   font-size: 1.4rem;
   color: #ff69b4; }
 
-.TextoCentrado {
+.textoCentrado {
   text-align: center; }
 
-.TextoDecorado {
+.textoDecorado {
   text-decoration: underline magenta; }
+
+.textoIzquierda {
+  text-align: left; }
+
+.textoDerecha {
+  text-align: right; }
+
+.bg-pink {
+  background-color: #fdf1f1; }
+
+nav a img {
+  width: 90px; }
+
+.nav {
+  grid-area: nav; }
 
 footer a img {
   width: 30px; }
 
-.TextoDerecha {
+.textoDerecha {
   text-align: right; }
+
+.pie {
+  grid-area: pie; }
 
 body {
   background-image: url(../assets/fondocupcake.png); }
 
 .separacion {
   margin: 30px auto; }
+
+.nosotros {
+  background-color: rgba(249, 154, 170, 0.4); }
+
+.w-99 {
+  width: 99%; }
+
+.parrafoGaleria {
+  width: 95%;
+  height: auto;
+  padding: 15px;
+  font-size: 1.4rem;
+  text-align: center; }

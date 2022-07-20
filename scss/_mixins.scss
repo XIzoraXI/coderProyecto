@@ -1,0 +1,36 @@
+@keyframes heroAnimation{
+    0%{background-image: url(../assets/Frutillas_rosas.png)}
+    50%{background-image: url(../assets/header2.png)}
+    99%{background-image: url(../assets/header3.png)}
+}
+
+.heroAnimation{
+    height: 70vh;
+    animation-name: heroAnimation;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    background-size: cover;
+    animation-timing-function: ease-in;
+}
+
+.degrade{
+    background: rgb(241,22,77);
+    background: linear-gradient(0deg, rgba(249, 154, 170, 1) 50%, rgba(200,49,136,1) 85%);
+}
+
+// mixins
+@mixin parrafo($ancho, $alto, $padding){
+    width: $ancho;
+    height: $alto;
+    padding: $padding;
+    font-size: $parrafos;
+}
+
+// maps
+$paleta:(
+    'mainColor': rgba(253, 241, 241, 1),
+    'secundaryColor': rgba(249, 154, 170, 0.4),
+    'keyColor': #ff69b4,
+    'white': #F5F0F0,
+    'black': #0F0E0E,
+    );
