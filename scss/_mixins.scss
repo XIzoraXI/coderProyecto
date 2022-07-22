@@ -23,7 +23,20 @@
     width: $ancho;
     height: $alto;
     padding: $padding;
-    font-size: $parrafos;
+}
+
+@mixin tabla($width, $height, $margin, $margin2, $padding, $border, $border2, $border3){
+    width: $width;
+    height: $height;
+    margin: $margin $margin2;
+    padding: $padding;
+    border: $border $border2 $border3;
+}
+
+@mixin border($width, $margin){
+    width: $width;
+    margin: $margin;
+    border: $bordeDoble;
 }
 
 // maps

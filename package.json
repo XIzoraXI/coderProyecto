@@ -1,7 +1,7 @@
 {
-  "name": "sass",
+  "name": "Cupake Shop",
   "version": "1.0.0",
-  "description": "",
+  "description": "un sitio web de ventas de cupcake de distintos sabores, situado en la localidad de Alto Hospicio, Chile",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/XIzoraXI/coderProyecto#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "boostrap": "^5.0"
   }
 }

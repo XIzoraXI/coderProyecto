@@ -26,6 +26,7 @@ h1{
     @include parrafo(45%, auto, 20px);
     @extend .parrafoNovedades;
     color: map-get($map:$paleta, $key:'keyColor');
+    font-size: $parrafos;
 }
 
 .textoCentrado{

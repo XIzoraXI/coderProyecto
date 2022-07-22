@@ -26,4 +26,46 @@ body{
     @include parrafo(95%, auto, 15px);
     @extend .parrafoGaleria;
     text-align: $centro;
+    font-size: $parrafos;
+}
+
+.galeriaIMG{
+    @include parrafo(95%, 250px, 5px);
+}
+
+.imagenHero{
+    width: 100vw;
+}
+
+.tabla{
+    @include tabla(50%, auto, 15px, auto, 10px, solid, 2px, hotpink);
+}
+
+.centroArticulo{
+    @include tabla(75%, auto, 30px, auto, 25px, solid, 2px, hotpink);
+}
+
+.ofertasDelMes{
+    @include border(400px, 5px);
+    @extend .ofertasDelMes;
+    padding: 5px;
+}
+
+.border{
+    @include border(32%, 10px);
+}
+
+table{
+    width: $width99;
+    height: 300px;
+}
+
+fieldset label{
+    display: block;
+    margin: 15px;
+}
+
+section fieldset iframe{
+    width: $width99;
+    height: 300px;
 }

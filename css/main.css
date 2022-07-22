@@ -32,8 +32,8 @@ h1 {
   width: 45%;
   height: auto;
   padding: 20px;
-  font-size: 1.4rem;
-  color: #ff69b4; }
+  color: #ff69b4;
+  font-size: 1.4rem; }
 
 .textoCentrado {
   text-align: center; }
@@ -81,5 +81,50 @@ body {
   width: 95%;
   height: auto;
   padding: 15px;
-  font-size: 1.4rem;
-  text-align: center; }
+  text-align: center;
+  font-size: 1.4rem; }
+
+.galeriaIMG {
+  width: 95%;
+  height: 250px;
+  padding: 5px; }
+
+.imagenHero {
+  width: 100vw; }
+
+.tabla {
+  width: 50%;
+  height: auto;
+  margin: 15px auto;
+  padding: 10px;
+  border: solid 2px hotpink; }
+
+.centroArticulo {
+  width: 75%;
+  height: auto;
+  margin: 30px auto;
+  padding: 25px;
+  border: solid 2px hotpink; }
+
+.ofertasDelMes {
+  width: 400px;
+  margin: 5px;
+  border: double 2px hotpink;
+  padding: 5px; }
+
+.border {
+  width: 32%;
+  margin: 10px;
+  border: double 2px hotpink; }
+
+table {
+  width: 99%;
+  height: 300px; }
+
+fieldset label {
+  display: block;
+  margin: 15px; }
+
+section fieldset iframe {
+  width: 99%;
+  height: 300px; }
