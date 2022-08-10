@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 465 431" width="465" height="431">
+	<title>template</title>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #ea9eef } 
+		.t1 { font-size: 216px;fill: #ffffff;font-weight: 400;font-family: "Trocchi", "Trocchi" } 
+	</style>
+	<path id="Background" class="s0" d="m-227-26h889v500h-889z"/>
+	<text id="C S" style="transform: matrix(.695,0,0,.694,240.23,187.068)" >
+		<tspan x="-76.3" y="0" class="t1">C</tspan><tspan  y="0" class="t1">
+</tspan>
+		<tspan x="-70.5" y="259.2" class="t1">S
+</tspan>
+	</text>
+</svg>

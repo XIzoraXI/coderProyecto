@@ -47,23 +47,93 @@ h1 {
 .textoDerecha {
   text-align: right; }
 
+.nav {
+  grid-area: nav; }
+
+.pie {
+  grid-area: pie; }
+
+.main {
+  grid-area: main; }
+
+.aside {
+  grid-area: aside; }
+
+.header {
+  grid-area: header; }
+
+.box {
+  display: flex; }
+
+.contenedorGrid {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  grid-template-rows: auto;
+  grid-template-areas: "nav nav nav" "main main aside" "main main aside" "pie pie pie"; }
+
+.flexGaleria {
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+
+.flexOfertas {
+  align-items: center; }
+
+aside img {
+  width: 90%;
+  height: 30%;
+  border: solid 3px hotpink; }
+
+@media only screen and (max-width: 768px) {
+  .contenedorGrid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "nav" "main" "aside" "pie"; }
+  .flexGaleria {
+    flex-direction: column;
+    align-items: center; } }
+
+.indexGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) 15%;
+  grid-template-areas: "nav nav nav" "header header header" "main main aside" "main main aside" "pie pie pie"; }
+
+.h1Novedades {
+  flex-flow: column wrap; }
+
+.h1Flex {
+  flex-direction: column; }
+
+.box2 {
+  display: flex;
+  justify-content: space-evenly; }
+
+@media only screen and (max-width: 768px) {
+  .indexGrid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "nav nav" "header header" "main main" "aside pie"; }
+  aside img {
+    width: 50%;
+    height: 30%; }
+  .box2 {
+    flex-direction: column;
+    align-items: center; }
+  .parrafoNovedades {
+    width: 99%;
+    height: auto;
+    font-size: 1.4rem;
+    padding: 10px; } }
+
 .bg-pink {
   background-color: #fdf1f1; }
 
 nav a img {
   width: 90px; }
 
-.nav {
-  grid-area: nav; }
-
 footer a img {
   width: 30px; }
 
 .textoDerecha {
   text-align: right; }
-
-.pie {
-  grid-area: pie; }
 
 body {
   background-image: url(../assets/fondocupcake.png); }
